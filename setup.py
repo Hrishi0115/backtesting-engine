@@ -9,7 +9,7 @@ def parse_requirements(filename):
         return requirements
 
 setup(
-    name='my_project',
+    name='backtesting_engine',
     version='0.1',
     packages=find_packages(),
     install_requires=parse_requirements('requirements.txt'),
